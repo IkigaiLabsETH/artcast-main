@@ -13,21 +13,21 @@ export const fontSans = FontSans({
 });
 
 export const metadata: Metadata = {
-  title: "Mintcaster",
+  title: "Ikigai ARTCAST V1",
   description:
-    "A Farcaster client that enables you to sign in with Farcaster, see & create casts, and mint any cast as an NFT. Sign in to get started.",
+    "An Ikigai Labs Farcaster client that enables you to sign in with Farcaster, see & create casts, and mint any cast as an NFT. Sign in to get started.",
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://mintcaster.thirdweb-example.com/",
+    url: "https://ikigai-artcast.vercel.app/",
     description:
       "A Farcaster client that enables you to sign in with Farcaster, see & create casts, and mint any cast as an NFT. Sign in to get started.",
     images: [
       {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Mintcaster",
+        url: "/vibes.png",
+        width: 800,
+        height: 800,
+        alt: "IKIGAI ARTCAST V1",
       },
     ],
   },

@@ -1,4 +1,6 @@
-# Mintcaster
+# IKIGAI ARTCAST V1
+
+An Ikigai Labs Farcaster client that enables you to sign in with Farcaster, see & create casts, and mint any cast as an NFT.
 
 ToDo: Use thirdweb engine to mint casts from farcaster as an NFT.
 
