@@ -33,6 +33,17 @@ Explore more about Farcaster and Warpcast:
 
 Join us in this exciting venture as we delve into the possibilities that Farcaster brings to the Web3 space, laying the groundwork for a more inclusive, transparent, and equitable online community.
 
+## Airstack Frames SDK
+
+<div align="center">
+  <h1 align="center">Official Airstack Frames SDK</h1>
+  <img src="./assets/airstack/explorer.png" alt="code snippets" height=350/>
+  <h3>Powered By</h3>
+  <a align="center" href="https://airstack.xyz" target="_blank"><img src="./assets/airstack/onchain-graph.png" alt="Airstack Logo" height=80/></a>
+</div>
+
+The Airstack Frames SDK empowers Ikigai to seamlessly integrate onchain data, including token balances, token mints, Farcaster followers and followings, POAPs, and more, into their Frames using just a few lines of code. Additionally, we can leverage the SDK to create an allow list feature, enabling checks for token ownership, token mints, following status, and more.
+
 # IKIGAI ARTCAST V1
 
 An Ikigai Labs Farcaster client that enables you to sign in with Farcaster, see & create casts, and mint any cast as an NFT. ToDo: Use thirdweb engine to mint casts from farcaster as an NFT.
