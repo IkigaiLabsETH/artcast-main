@@ -13,7 +13,7 @@ More than a mere social platform, Farcaster emerges as a groundbreaking solution
 Our dedication to Farcaster stems from our conviction in its transformative potential for Web3 social media. As we proceed with this initiative, we extend an invitation to the community of developers, creators, and innovators active on Farcaster to join us in crafting the future of decentralized digital engagement.
 
 
-## A New Era of Social Media with Farcaster and Warpcast
+## A New Era of Social Media
 
 - **Enhanced User Engagement**: SENECA's experience shows a 4x increase in engagement on Farcaster versus traditional social media platforms, despite a larger follower count elsewhere.
 - **Web3 Functionality Integration**: MERT highlights the ease of purchasing Solana meme coins and NFT minting, underlining Farcaster's advanced capabilities.
@@ -21,6 +21,12 @@ Our dedication to Farcaster stems from our conviction in its transformative pote
 - **Crypto-Centric Community**: Farcaster is breaking traditional token community boundaries, fostering a more inclusive ecosystem with potential for non-speculative appeal.
 - **Blockchain-Enhanced Social Networking**: Offers a decentralized experience akin to Twitter and Instagram, with added blockchain benefits allowing users full control over their profiles and interactions.
 - **Warpcast and Ikigai**: Flagship applications provide improved social media experiences and Instagram-style engagement, respectively, showcasing Farcaster's versatility.
+
+Since Farcaster is public and decentralized, anyone can build an app to read and write data. Users own their accounts and relationships with other users and are free to move between different apps. As it stands, Farcaster’s DAU tally is over 140K, thanks to a key application update, Frames, that attracted a crowd of new users thanks to an ability to turn any “cast” into an interactive app. Recently 200K Solana users linked their wallet on the app, which is a nominal number compared to traditional social media networks. But it’s a strong wave of momentum by crypto standards.
+
+![DAU](public/farcaster_DAU_dune.png "DAU")
+
+- [Source:] (https://dune.com/queries/3024331/5024400)
 
 ## Icing On The Cake
 
