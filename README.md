@@ -22,7 +22,7 @@ Our dedication to Farcaster stems from our conviction in its transformative pote
 - **Blockchain-Enhanced Social Networking**: Offers a decentralized experience akin to Twitter and Instagram, with added blockchain benefits allowing users full control over their profiles and interactions.
 - **Warpcast and Ikigai**: Flagship applications provide improved social media experiences and Instagram-style engagement, respectively, showcasing Farcaster's versatility.
 
-Since Farcaster is public and decentralized, anyone can build an app to read and write data. Users own their accounts and relationships with other users and are free to move between different apps. As it stands, Farcaster’s DAU tally is over 140K, thanks to a key application update, Frames, that attracted a crowd of new users thanks to an ability to turn any “cast” into an interactive app. Recently 200K Solana users linked their wallet on the app, which is a nominal number compared to traditional social media networks. But it’s a strong wave of momentum by crypto standards.
+Since Farcaster is public and decentralized, anyone can build an app to read and write data. Users own their accounts and relationships with other users and are free to move between different apps. As it stands, Farcaster’s DAU tally is over 140K, thanks to a key application update, Frames, that attracted a crowd of new users thanks to an ability to turn any “cast” into an interactive app. Recently 200K Solana users linked their wallet on the app, which is a nominal number compared to traditional social media networks.
 
 ![DAU](public/farcaster_DAU_dune.png "DAU")
 
