@@ -215,7 +215,7 @@
 
 .farcaster-embed-warpcast-icon {
   display: flex;
-  items-align: center;
+  align-items: center;
 }
 
 .farcaster-embed-warpcast-link {
