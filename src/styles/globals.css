@@ -1,11 +1,171 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('../../public/assets/fonts/epilogue/Epilogue-Variable.woff2') format('woff2'),
+       url('../../public/assets/fonts/epilogue/Epilogue-Variable.woff') format('woff'),
+       url('../../public/assets/fonts/epilogue/Epilogue-Variable.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Epilogue';
+  src: url('../../public/assets/fonts/epilogue/Epilogue-VariableItalic.woff2') format('woff2'),
+       url('../../public/assets/fonts/epilogue/Epilogue-VariableItalic.woff') format('woff'),
+       url('../../public/assets/fonts/epilogue/Epilogue-VariableItalic.ttf') format('truetype');
+       font-weight: 100 900;
+       font-display: swap;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'Boska';
+  src: url('../../public/assets/fonts/boska/Boska-Variable.woff2') format('woff2'),
+       url('../../public/assets/fonts/boska/Boska-Variable.woff') format('woff'),
+       url('../../public/assets/fonts/boska/Boska-Variable.ttf') format('truetype');
+       font-weight: 200 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Boska';
+  src: url('../../public/assets/fonts/boska/Boska-VariableItalic.woff2') format('woff2'),
+       url('../../public/assets/fonts/boska/Boska-VariableItalic.woff') format('woff'),
+       url('../../public/assets/fonts/boska/Boska-VariableItalic.ttf') format('truetype');
+       font-weight: 200 900;
+       font-display: swap;
+       font-style: italic;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../public/assets/fonts/satoshi/Satoshi-Variable.woff2') format('woff2'),
+       url('../../public/assets/fonts/satoshi/Satoshi-Variable.woff') format('woff'),
+       url('../../public/assets/fonts/satoshi/Satoshi-Variable.ttf') format('truetype');
+       font-weight: 300 900;
+       font-display: swap;
+       font-style: normal;
+}
+
+@font-face {
+  font-family: 'Satoshi';
+  src: url('../../public/assets/fonts/satoshi/Satoshi-VariableItalic.woff2') format('woff2'),
+       url('../../public/assets/fonts/satoshi/Satoshi-VariableItalic.woff') format('woff'),
+       url('../../public/assets/fonts/satoshi/Satoshi-VariableItalic.ttf') format('truetype');
+       font-weight: 300 900;
+       font-display: swap;
+       font-style: italic;
+}
+
+@layer utilities {
+  .text-yellow {
+    color: yellow; /* Define the color value you want */
+  }
+}
+
+
+@layer base {
+  body {
+    font-family: 'satoshi';
+    @apply text-white;
+    background-color: #121212;
+    color: var(--border-yellow); /* Use the custom yellow color */
+    @apply text-lg; /* Increase the font size to make the main font bigger */
+
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-bold leading-none mb-4 tracking-tighter text-yellow;
+    font-family: 'epilogue'
+  }
+
+  h1 {
+    @apply text-5xl;
+  }
+  
+  h2 {
+    @apply text-5xl;
+  }
+
+  p {
+    font-family: 'satoshi';
+    margin-bottom: 1.5rem;
+  }
+
+  a {
+    @apply transition-colors;
+  }
+
+  a:hover {
+    @apply text-yellow;
+  }
+
+  .boska {
+    font-family: 'boska';
+  }
+
+  .epilogue {
+    font-family: 'epilogue';
+    @apply tracking-wide;
+  }
+
+  .satoshi {
+    font-family: 'satoshi';
+  }
+}
+
+@layer components {
+  .tab {
+    @apply text-lg text-yellow bg-white border-2 shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] p-2;
+    color: text-yellow; /* Set the color of the frames to text-yellow */
+    border-radius: 8px; /* Adjust the radius value as needed */
+  }
+
+  .tab.inactive {
+    @apply border-black hover:border-red hover:-translate-x-2 hover:-translate-y-2 hover:shadow-[8px_8px_0px_0px_rgba(127,29,29,1)] transition-all hover:text-red;
+  }
+
+  .tab.active {
+    @apply border-white hover:text-yellow text-yellow bg-black hover:shadow-[5px_5px_0px_0px_rgba(0,0,0,1)] p-[10px];
+  }
+}
+
+.without-ring {
+  @apply focus:ring-0 focus:ring-offset-0;
+}
+
+
+.Toastify__toast {
+  @apply shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] satoshi font-bold text-black rounded-none border-2 border-black;
+}
+
+.Toastify__progress-bar--info, .Toastify__progress-bar--success, .Toastify__progress-bar--warning, .Toastify__progress-bar--error {
+  @apply bg-black;
+}
+
+.collection-header a {
+  @apply text-yellow font-bold hover:text-yellow-600;
+}
+
+.info-tab p {
+  @apply !text-black;
+}
+
+.info-tab a {
+  @apply text-yellow hover:text-yellow-600;
+}
  
 @layer base {
   :root {
     --background: 0 0% 100%;
     --foreground: 224 71.4% 4.1%;
+
+    --border: var(--border-yellow)
 
     --card: 0 0% 100%;
     --card-foreground: 224 71.4% 4.1%;
@@ -31,8 +191,9 @@
     --border: 220 13% 91%;
     --input: 220 13% 91%;
     --ring: 224 71.4% 4.1%;
+    --border-yellow: 60 100% 50%; /* Define yellow color */
  
-    --radius: 0.5rem;
+    --radius: 0.3rem;
   }
  
   .dark {
@@ -73,4 +234,11 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.fc-authkit-qrcode-dialog {
+  color: #646d7a;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }

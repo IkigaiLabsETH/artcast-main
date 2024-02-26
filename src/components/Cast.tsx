@@ -45,8 +45,8 @@ export default function Cast({
                 cast?.author.username ||
                 ""
               }
-              width={36}
-              height={36}
+              width={42}
+              height={42}
               className="rounded-full"
             />
           )}
@@ -62,7 +62,7 @@ export default function Cast({
           <DeleteCastButton hash={cast?.hash!} author={author?.fid!} />
         )}
       </div>
-      <p className="text-[#646D7A] mt-8">{String(cast?.text)}</p>
+      <p className="text-[#f0f5f5] mt-8">{String(cast?.text)}</p>
       <div
         className={`flex gap-4 justify-end absolute bottom-6 right-6 ml-auto mt-auto ${
           hovering ? "" : "md:hidden"

@@ -13,7 +13,7 @@ export default async function Home() {
 async function getFeed() {
   const feed = await neynarClient.fetchFeed(FeedType.Filter, {
     filterType: FilterType.GlobalTrending,
-    withReplies: false,
+    withReplies: true,
   });
 
   return { feed };

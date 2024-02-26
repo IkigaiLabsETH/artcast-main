@@ -72,9 +72,9 @@ export const Header: FC = () => {
         <Link href="/">
           <Image
             src="/Mintcaster.svg"
-            alt="Mintcaster"
-            width={150}
-            height={25}
+            alt="Ikigai Labs XYZ - ARTCAST - Warpcast Channels"
+            width={75}
+            height={12}
             className="cursor-pointer"
           />
         </Link>

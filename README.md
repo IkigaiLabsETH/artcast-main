@@ -1,18 +1,10 @@
 # Mintcaster
 
-This project demonstrates how you can thirdweb engine to mint casts from farcaster as an NFT.
-
-## Installation
-
-Install the template with [thirdweb create](https://portal.thirdweb.com/cli/create)
-
-```bash
-npx thirdweb create --template Mintcaster
-```
+ToDo: Use thirdweb engine to mint casts from farcaster as an NFT.
 
 ## Set up
 
-- Deploy or import an already deployed edition contract on thirdweb dashboard.
+- Add deployed edition contract from thirdweb.
 
 ### Environment Variables
 
@@ -42,19 +34,6 @@ Start the server:
   yarn start
 ```
 
-## Additional Resources
-
-- [Documentation](https://portal.thirdweb.com)
-- [Templates](https://thirdweb.com/templates)
-- [Video Tutorials](https://youtube.com/thirdweb_)
-- [Blog](https://blog.thirdweb.com)
 
 ## Contributing
 
-Contributions and [feedback](https://feedback.thirdweb.com) are always welcome!
-
-Please visit our [open source page](https://thirdweb.com/open-source) for more information.
-
-## Need help?
-
-For help, join the [discord](https://discord.gg/thirdweb) or visit our [support page](https://support.thirdweb.com).

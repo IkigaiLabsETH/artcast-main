@@ -53,10 +53,10 @@ export async function POST(request: Request) {
         receiver: address,
         metadataWithSupply: {
           metadata: {
-            name: "Mintcaster",
-            description: "Mintcaster",
+            name: "Ikigai ARTCAST",
+            description: "Ikigai ARTCAST",
             image: ipfs,
-            external_url: `https://mintcaster.vercel.app/cast/${hash}`,
+            external_url: `https://ikigai-artcast.vercel.app/cast/${hash}`,
             // @ts-ignore
             attributes: [
               {

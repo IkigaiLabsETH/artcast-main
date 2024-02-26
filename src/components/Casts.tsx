@@ -24,7 +24,7 @@ export const Casts: FC<Props> = ({ feed }) => {
             className={`${
               all
                 ? "border-blue-500 text-blue-500"
-                : "border-[#272B30] text-gray-200"
+                : "border-[#272B30] text-yellow-200"
             }
            rounded-full border-2 px-6 py-2 bg-transparent hover:bg-white/15 hover:text-white
           `}
@@ -48,7 +48,7 @@ export const Casts: FC<Props> = ({ feed }) => {
           </Button>
         </div>
 
-        <p className="text-[#646D7A] text-sm font-semibold cursor-pointer text-center">
+        <p className="text-[#db7d2f] text-sm font-semibold cursor-pointer text-center">
           ✨ Try hovering over any cast and click to mint it
         </p>
         <div />
