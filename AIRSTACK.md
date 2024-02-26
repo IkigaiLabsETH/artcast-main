@@ -1,13 +1,5 @@
-<div align="center">
-  <h1 align="center">Official Airstack Frames SDK</h1>
-  <img src="./assets/airstack/explorer.png" alt="code snippets" height=350/>
-  <h3>Powered By</h3>
-  <a align="center" href="https://airstack.xyz" target="_blank"><img src="./assets/airstack/onchain-graph.png" alt="Airstack Logo" height=80/></a>
-</div>
 
-The Airstack Frames SDK empowers developers to seamlessly integrate onchain data, including token balances, token mints, Farcaster followers and followings, POAPs, and more, into their Frames using just a few lines of code.
-
-Additionally, developers can leverage the SDK to create an allow list feature, enabling checks for token ownership, token mints, following status, and more.
+# The Airstack Frames SDK 
 
 Designed with TypeScript, the SDK offers full type support for those building Frames with TypeScript.
 
