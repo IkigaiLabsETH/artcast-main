@@ -15,18 +15,14 @@ Our dedication to Farcaster stems from our conviction in its transformative pote
 
 ## A New Era of Social Media with Farcaster and Warpcast
 
-- **Decentralized Innovation**: Farcaster stands out as a decentralized social network enhancing user autonomy, data ownership, and resistance to censorship.
 - **Enhanced User Engagement**: SENECA's experience shows a 4x increase in engagement on Farcaster versus traditional social media platforms, despite a larger follower count elsewhere.
 - **Web3 Functionality Integration**: MERT highlights the ease of purchasing Solana meme coins and NFT minting, underlining Farcaster's advanced capabilities.
 - **Decentralized Yet Adaptable**: Despite utilizing centralized servers for certain applications like Warpcast, Farcaster maintains its decentralized integrity, offering features like on-chain account creation and a unique content quality mechanism.
 - **Crypto-Centric Community**: Farcaster is breaking traditional token community boundaries, fostering a more inclusive ecosystem with potential for non-speculative appeal.
-- **Blockchain-Enhanced Social Networking**: Offers a decentralized experience akin to Twitter and Reddit, with added blockchain benefits allowing users full control over their profiles and interactions.
-- **Warpcast and Flink**: Flagship applications provide improved social media experiences and Reddit-style engagement, respectively, showcasing Farcaster's versatility.
-- **Resilience in Decentralization**: Warpcast's downtime did not affect the Farcaster protocol, illustrating the strength of decentralized systems in ensuring service continuity.
-- **Advocacy for Decentralized Social (DeSo)**: Avoids financialization pitfalls of previous DeSo efforts by eschewing a native token, focusing on quality and community-driven development.
+- **Blockchain-Enhanced Social Networking**: Offers a decentralized experience akin to Twitter and Instagram, with added blockchain benefits allowing users full control over their profiles and interactions.
+- **Warpcast and Ikigai**: Flagship applications provide improved social media experiences and Instagram-style engagement, respectively, showcasing Farcaster's versatility.
 
-Would you like any additional details or adjustments for this summary?
-
+Avoids financialization pitfalls of previous DeSo efforts by eschewing a native token, focusing on quality and community-driven development.
 
 Explore more about Farcaster and Warpcast:
 - [Farcaster Protocol](https://www.farcaster.xyz/)
@@ -36,13 +32,11 @@ Join us in this exciting venture as we delve into the possibilities that Farcast
 
 # IKIGAI ARTCAST V1
 
-An Ikigai Labs Farcaster client that enables you to sign in with Farcaster, see & create casts, and mint any cast as an NFT.
-
-ToDo: Use thirdweb engine to mint casts from farcaster as an NFT.
+An Ikigai Labs Farcaster client that enables you to sign in with Farcaster, see & create casts, and mint any cast as an NFT. ToDo: Use thirdweb engine to mint casts from farcaster as an NFT.
 
 ## Set up
 
-- Add deployed edition contract from thirdweb.
+ ☑️ Add deployed edition contract from thirdweb
 
 ### Environment Variables
 
