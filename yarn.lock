@@ -537,6 +537,11 @@
     "@openzeppelin/contracts-upgradeable" "^4.7.3"
     "@openzeppelin/contracts-v0.7" "npm:@openzeppelin/contracts@v3.4.2"
 
+"@coinbase/onchainkit@^0.9.4":
+  version "0.9.4"
+  resolved "https://registry.yarnpkg.com/@coinbase/onchainkit/-/onchainkit-0.9.4.tgz#a8fbb498d61522a610f368199577da2082b29920"
+  integrity sha512-qZ033gWraZmKcxdtXWUYJxcIFJe+FWHzxfameEp4itg1wHyj++PVyxBbtYxwH/fei2A3qK5ZWbX1iRxCzJx9Mw==
+
 "@eslint-community/eslint-utils@^4.2.0":
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/@eslint-community/eslint-utils/-/eslint-utils-4.4.0.tgz#a23514e8fb9af1269d5f7788aa556798d61c6b59"
