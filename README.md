@@ -22,7 +22,10 @@ Our dedication to Farcaster stems from our conviction in its transformative pote
 - **Blockchain-Enhanced Social Networking**: Offers a decentralized experience akin to Twitter and Instagram, with added blockchain benefits allowing users full control over their profiles and interactions.
 - **Warpcast and Ikigai**: Flagship applications provide improved social media experiences and Instagram-style engagement, respectively, showcasing Farcaster's versatility.
 
-Avoids financialization pitfalls of previous DeSo efforts by eschewing a native token, focusing on quality and community-driven development.
+## Icing On The Cake
+
+- Avoids financialization pitfalls by eschewing a native token .
+- Focusing on curated newsfees and community-driven development.
 
 Explore more about Farcaster and Warpcast:
 - [Farcaster Protocol](https://www.farcaster.xyz/)
